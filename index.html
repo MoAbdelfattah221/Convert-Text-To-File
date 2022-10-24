@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/Normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="https://www.freeiconspng.com/uploads/downloads-icon-15.png">
+    <title>Convert Text To File</title>
+</head>
+<body class="w-100">
+    <section>
+        <div class="vh-100 container overflow-hidden d-flex justify-content-center align-items-center flex-column">
+            <div class="parent p-4 bg-light rounded">
+                <textarea  class="p-3 rounded lh-base mw-100" placeholder="Enter something to save"></textarea>
+                <div class="details my-3 d-flex justify-content-between align-items-center">
+                    <div class="mb-2">
+                        <label class="d-block pb-2">File name</label>
+                        <input type="text" class="p-2 rounded" placeholder="Enter file name">
+                    </div>
+                    <div class="mb-2">
+                        <label class="d-block pb-2">Save as</label>
+                        <select class="p-2 rounded ">
+                            <option value="text/plain">Text File (.txt)</option>
+                            <option value="text/javascript">JS File (.js)</option>
+                            <option value="text/html">HTML File (.html)</option>
+                            <option value="image/svg+xml">SVG File (.svg)</option>
+                            <option value="application/msword">Doc File (.doc)</option>
+                            <option value="application/vnd.ms-powerpoint">PPT File (.ppt)</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="p-3 rounded mw-100 w-100">Save as</button>
+            </div>
+            <div class="copy mt-3 text-center">&copy; <span class="fw-bold">Convert Text To File</span> - 2022 - Made With <i class="fa-solid fa-heart"></i> By <a href="https://www.facebook.com/profile.php?id=100077184805922" class="text-decoration-none" target="_blank">Mohamed Abdelfattah</a></div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
